@@ -1,0 +1,136 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+:root
+{
+    --main-color:#a8b06c;
+}
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    max-height: 100vh;
+}
+.nav-h{
+   background-color: var(--main-color);
+   display: flex;
+   height: 10vh;
+   align-items: center;
+   padding: 0 25px;
+   position: relative;
+   z-index: 999;
+   transition: .3s linear;
+}
+.nav-h ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.nav-h ul li a:hover{
+    font-weight: 900;
+}
+.nav-h ul li{
+    list-style: none;   
+}
+.whole-body{
+    max-height: 100vh;
+    /* background-image:url("https://picsum.photos/1280/1080"); */
+    background-image:url("/css/432-1280x1080.jpg");
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+
+}
+img{
+    overflow: hidden;
+    object-fit: cover;
+}
+.main-content{
+    color: black;
+    display: inline-block;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+#heading{
+    font-family: 'Roboto Condensed', sans-serif;
+    cursor: default;
+    padding: 12px 10px 12px 10px;
+    margin:58px 0 22px;
+    text-align: center;
+    font-size: xx-large;
+    background-color: var(--main-color);
+    border-radius: 5px;
+}
+.main-links{
+    display: flex;
+    background-color: transparent;
+    border-radius: 5px;
+}
+.main-links a:hover{
+    font-weight: 900;
+    background-color: rgb(126, 186, 226);
+    border-radius: 5px;
+}
+.main-links a{
+    text-decoration: none;
+    stroke: azure 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 0 6px;
+    color: black;
+}
+
+.animation1{
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    font-size: 24px;
+}
+.animation1 h1{
+    font-weight: 300;
+    margin-right: 10px;
+}
+.animation1{
+    font-size: 30px;
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: var(--main-color);
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: default;
+}
+.animation1::after{
+    content: "web dev";
+    animation: textanim 10s infinite;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+@keyframes textanim{
+    25%{
+      content: "a Dev";
+    }
+    50%{
+      content: "a Student";
+    }
+    75%{
+      content: "a Coder";
+    }
+    100%{
+      content: "a Gamer";
+    }
+  }
+
+
+.footer-1{
+    background-color: var(--main-color);
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+}
