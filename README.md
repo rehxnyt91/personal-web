@@ -1,1 +1,38 @@
-# personal-web
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="/css/index.css">
+</head>
+
+<body>
+    <div class="nav-h">
+        <ul>
+            <li><a href="#">Home</a></li>
+        </ul>
+    </div>
+    <div class="whole-body">
+        <div class="main-content">
+            <p id="heading"> Welcome to my website </p>
+           <p class="main-links">
+               <a href="https://Instagram.com/iamrehxn" target="_blank">Instagram</a>
+               <a href="https://www.youtube.com/c/XxUniqueGamerxX" target="_blank">Youtube</a>
+               <a href="mailto:iamrehxn@protonmail.com" target="_blank">Mail</a>
+           </p>
+           <div class="animation1">
+            <h1>Hi i am  </h1>
+        </div>
+        </div>
+        
+    </div>
+    <div class="footer-1">
+        &copy; Copyrights Reserved by rehxn
+    </div>
+</body>
+<!-- make responsive -->
+<!-- make animation text and animation color nav bar -->
+</html>
